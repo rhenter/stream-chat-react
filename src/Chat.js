@@ -15,7 +15,7 @@ import "stream-chat-react/dist/css/index.css";
 class App extends Component {
     constructor(props) {
         super(props);
-        this.client = new StreamChat('75e76yujexs5');
+        this.client = new StreamChat('');
 
         const userToken = localStorage.getItem("token");
         const tokenUserId = localStorage.getItem("user_id");
